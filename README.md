@@ -14,6 +14,9 @@ Repository for the study of Linux. This Markdown contains theory, practices and 
   - [What is a Kernel](#what-is-a-kernel)
   - [Who is Linus Torvalds](#who-is-linus-torvalds)
   - [The GNU Project](#the-gnu-project)
+  - [The Linux Foundation](#the-linux-foundation)
+  - [Linux Directory Structure](#linux-directory-structure)
+  - [Linux File Systems](#linux-file-systems)
 - [Practice](#practice)
   - [Dependencies](#dependencies)
   - [Getting Started](#getting-started)
@@ -23,18 +26,6 @@ Repository for the study of Linux. This Markdown contains theory, practices and 
   - [Understanding permissions](#understanding-permissions)
     - [Useful tool for permission calculator](#useful-tool-for-permission-calculator)
   - [Basic commands](#basic-commands)
-    - [ls](#ls)
-    - [whoami](#whoami)
-    - [cd](#cd)
-    - [mkdir](#mkdir)
-    - [rm](#rm)
-    - [ln](#ln)
-    - [pwd](#pwd)
-    - [touch](#touch)
-    - [echo](#echo)
-    - [tail](#tail)
-    - [chmod](#chmod)
-    - [groupadd](#groupadd)
   - [Shell Scripting](#shell-scripting)
 - [References](#references)
 
@@ -109,6 +100,24 @@ The GNU Project is a free software, mass collaboration project that Richard Stal
 </p>
 
 <span style="clear: both; display: block"></span>
+
+---
+
+## The Linux Foundation
+
+The Linux Foundation (LF) is a non-profit technology consortium founded in 2000 to standardize Linux, support its growth, and promote its commercial adoption. It also hosts and promotes the collaborative development of open source software projects. The Linux Foundation sponsors the work of Linux creator Linus Torvalds and lead maintainer Greg Kroah-Hartman and is supported by members such as AT&T, Cisco, Facebook, Fujitsu, Google, Hitachi, Huawei, IBM, Intel, Microsoft, NEC, Oracle, Orange S.A., Qualcomm, Samsung, Tencent, and VMware, as well as developers from around the world.
+
+In recent years, the Linux Foundation has expanded its support programs through events, training and certification, and open source projects. Projects hosted at the Linux Foundation include the Linux kernel project, Kubernetes, Automotive Grade Linux, Open Network Automation Platform (ONAP), Hyperledger, Cloud Native Computing Foundation, Cloud Foundry Foundation, Xen Project, and many others.
+
+---
+
+## Linux Directory Structure
+
+
+
+---
+
+## Linux File Systems
 
 ---
 
@@ -236,29 +245,29 @@ $ sudo -u <username> -s
 
 [Complete Reference](linux-commands-cheat-sheet-by-pnap.pdf)
 
-### ls
+**ls**
 
-### whoami
+**whoami**
 
-### cd
+**cd**
 
-### mkdir
+**mkdir**
 
-### rm
+**rm**
 
-### ln
+**ln**
 
-### pwd
+**pwd**
 
-### touch
+**touch**
 
-### echo
+**echo**
 
-### tail
+**tail**
 
-### chmod
+**chmod**
 
-### groupadd
+**groupadd**
 
 ---
 
