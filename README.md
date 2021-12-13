@@ -26,6 +26,7 @@ Repository for the study of Linux Kernel. This Markdown contains theory and refe
   - [tail](#tail)
   - [chmod](#chmod)
   - [groupadd](#groupadd)
+- [Shell Scripting](#shell-scripting)
 - [References](#references)
 
 ---
@@ -54,13 +55,19 @@ Create and run the container:
 $ docker run -d -it --name linux-study-container debian:bullseye
 ```
 
-Check if the container was created:
+Check if the container was created, and get its id:
 
 ```shell
 $ docker ps
 ```
 
-Got into the container with:
+Copy the scripts directory to the container:
+
+```shell
+$ docker cp scripts <container_id>:/home/scripts
+```
+
+Get into the container with:
 
 ```shell
 $ docker exec -it linux-study-container /bin/bash
@@ -76,9 +83,23 @@ $ apt update && apt install -y procps less tree man sudo vim
 
 ### Create the Docker container from a Dockerfile
 
+Create the image from the Dockerfile:
 
+```shell
+$ docker build -t linux-study-img .
+```
 
+Check the created image:
 
+```shell
+$ docker image ls
+```
+
+Run a container from that image:
+
+```shell
+$ docker run -d -it --name linux-study-container linux-study-img
+```
 
 ### Configuring the container
 
@@ -155,6 +176,10 @@ $ sudo -u <username> -s
 ### chmod
 
 ### groupadd
+
+---
+
+## Shell Scripting
 
 ---
 
