@@ -36,7 +36,7 @@ Repository for the study of Linux. This Markdown contains theory, practices and 
     - [chmod](#chmod)
     - [groupadd](#groupadd)
   - [Shell Scripting](#shell-scripting)
-  - [References](#references)
+- [References](#references)
 
 ---
 
@@ -52,7 +52,7 @@ Linux is a family of open-source [unix](#what-is-unix)-like [operating systems](
 <img src="https://img.shields.io/badge/ubuntu-%23cf4f00.svg?style=for-the-badge&logo=ubuntu&logoColor=white" style="border-radius: 5px"/>
 </a><br>
 
-<a href="https://www.debian.org/index.pt.html">
+<a href="https://www.debian.org/">
 <img src="https://img.shields.io/badge/debian-%23ffffff.svg?style=for-the-badge&logo=debian&logoColor=a10083" style="border-radius: 5px"/>
 </a><br>
 
@@ -90,7 +90,7 @@ The kernel is a computer program at the core of a computer's operating system an
 
 ## Who is Linus Torvalds
 
-<img align="right" src="assets/torvalds.jpeg" width="300" height="350" style="margin: 0 10px">
+<img align="right" src="assets/torvalds.jpeg" width="100" height="100" style="margin: 0 30px;">
 
 <p style="text-align: justify;">
 Linus Benedict Torvalds is a Finnish-American software engineer who is the creator and, historically, the main developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed version control system Git and the scuba dive logging and planning software Subsurface.
@@ -102,7 +102,7 @@ Linus Benedict Torvalds is a Finnish-American software engineer who is the creat
 
 ## The GNU Project
 
-<img align="right" src="assets/gnu-mascot.png" width="300" height="350" style="margin: 0 10px">
+<img align="right" src="assets/gnu-mascot.png" width="150" height="150" style="margin: 0 30px">
 
 <p style="text-align: justify;">
 The GNU Project is a free software, mass collaboration project that Richard Stallman announced on September 27, 1983. Its goal is to give computer users freedom and control in their use of their computers and computing devices by collaboratively developing and publishing software that gives everyone the rights to freely run the software, copy and distribute it, study it, and modify it. GNU software grants these rights in its license.
@@ -266,7 +266,7 @@ $ sudo -u <username> -s
 
 ---
 
-## References
+# References
 
 [1] [Miguel Nischor](https://github.com/mgnischor)
 
